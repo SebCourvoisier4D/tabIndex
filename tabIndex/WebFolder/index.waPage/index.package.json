@@ -4,7 +4,22 @@
 	"version": "1.0.0",
 	"loadDependencies": [
 		{
+			"id": "Desktop_Core",
+			"version": "1.0.0",
+			"type": "core"
+		},
+		{
+			"id": "Widget/button",
+			"type": "widget"
+		},
+		{
 			"package": "default"
+		},
+		{
+			"package": "UnitTestWidget"
+		},
+		{
+			"package": "MyWidget"
 		},
 		{
 			"file": "styles/index.css"
