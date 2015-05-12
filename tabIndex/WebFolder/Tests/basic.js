@@ -1,4 +1,3 @@
-
 function selectNextTabbable(){
 	var selectables = $('#waf-body button[tabindex], #waf-body input[tabindex]');
 	selectables.sort(function (a, b) {
@@ -6,7 +5,7 @@ function selectNextTabbable(){
 		if ($(a).prop("tabIndex") > $(b).prop("tabIndex")) return 1;
 		return 0;	
 	});
-	var current = $(':focus');
+	var current = $(document.activeElement);
 	var nextIndex = 0;
 	if(current.length === 1){
 		var currentIndex = selectables.index(current);
@@ -15,7 +14,7 @@ function selectNextTabbable(){
 		}
 	}
 	selectables.eq(nextIndex).focus();
-	return $(':focus');
+	return $(document.activeElement);
 }
 
 describe("The TabIndex Manager", function () {
