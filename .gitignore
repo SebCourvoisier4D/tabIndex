@@ -27,3 +27,5 @@ sessionID.json
 # Wakanda Remote Model Cache
 *.waRemoteModel
 
+tabIndex Solution/Directory.WakTDef
+tabIndex/DataFolder/data.WakTDef
