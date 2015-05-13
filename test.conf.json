@@ -1,5 +1,5 @@
 {
-    "solution-path": "tabIndex Solution/tabIndex.waSolution",
+    "solution-path": "./tabIndex Solution/tabIndex.waSolution",
     "page-url": "http://127.0.0.1:8081/index.waPage/index.html",
     "files": ["./tabIndex/WebFolder/Tests/*.js"],
     "kind": "csjs-headless",
