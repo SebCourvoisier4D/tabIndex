@@ -1,0 +1,14 @@
+{
+    "solution-path": "tabIndex Solution/tabIndex.waSolution",
+    "page-url": "http://127.0.0.1:8081/index.waPage/index.html",
+    "files": ["./tabIndex/WebFolder/Tests/*.js"],
+    "kind": "csjs-headless",
+    "csjs-engine": "chrome",
+    "developer": "cedric.soulas@4d.com",
+    "tester": "sebastien.courvoisier@4d.com",
+    "visible": true,
+    "active": true,
+    "enterprise-only": false,
+    "reporter": "json",
+    "description": "Test of the Tab Index Manager of the GUID"
+}
